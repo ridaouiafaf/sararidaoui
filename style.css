@@ -2,6 +2,10 @@
     font-family: generalFont;
     src: url(fonts/GoogleSans-Regular-v1.27.ttf);
   }
+  @font-face {
+    font-family: secondFont;
+    src: url(fonts/Montserrat-Regular.ttf);
+  }
 body {
     background-image: url('pics/E2.jpg');
   background-repeat: no-repeat;
@@ -36,7 +40,7 @@ body {
   .hover-underline-animation {
     display: inline-block;
     position: relative;
-    color:brown;
+    color:beige;
     
   }
   .hover-underline-animation:after {
@@ -47,7 +51,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color:brown;
+    background-color:beige;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -61,7 +65,7 @@ body {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: beige;
-    font-weight: bold;
+    /* font-weight: bold; */
     border: 3px solid #f1f1f1;
     position: absolute;
     top: 50%;
@@ -71,6 +75,6 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    font-family: generalFont;
+    
     font-size: x-large;
   }
