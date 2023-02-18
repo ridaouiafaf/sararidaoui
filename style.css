@@ -7,7 +7,7 @@
     src: url(fonts/Montserrat-Regular.ttf);
   }
 body {
-    background-image: url('pics/E2.jpg');
+    background-image: url('pics/I2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -68,13 +68,37 @@ body {
     /* font-weight: bold; */
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    /* z-index: 2; */
     width: 80%;
     padding: 20px;
     text-align: center;
-    
     font-size: x-large;
+    margin-top: 30vw;
+    font-family: secondfont;
+  }
+  .bg-text p {
+    text-align: justify;
+    font-family: secondFont;
+    font-size: 2vw;
+  }
+  .bg-text h1 {
+    font-weight: bold;
+    font-family: generalFont;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .bg-text a {
+    color: white;
+    text-decoration: none;
+    size: 6vw;
+    margin: 1vw;
   }
