@@ -87,6 +87,7 @@ body {
   .bg-text h1 {
     font-weight: bold;
     font-family: generalFont;
+    font-size: 5vw;
   }
   .fa {
     padding: 20px;
@@ -101,4 +102,8 @@ body {
     text-decoration: none;
     size: 6vw;
     margin: 1vw;
+  }
+  .topnav {
+    overflow: hidden;
+    margin-bottom: 5vw;;
   }
