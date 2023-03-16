@@ -101,10 +101,16 @@ body {
   .bg-text a {
     color: white;
     text-decoration: none;
-    size: 6vw;
+    font-size: 2.7vw;
     margin: 1vw;
   }
   .topnav {
     overflow: hidden;
     margin-bottom: 5vw;;
   }
+  /* .fa-brands {
+    font-size: 2.7vw;
+  }
+  .fa-solid {
+    font-size: 2.7vw;
+  } */
