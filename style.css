@@ -19,8 +19,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 29vw;
+    margin-right: 25vw;
   }
   
   li {
@@ -78,6 +78,18 @@ body {
     text-align: center;
     font-size: x-large;
     margin-top: 30vw;
+    font-family: secondfont;
+  }
+  .bg-index {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10vw;
     font-family: secondfont;
   }
   .bg-text p {
