@@ -10,7 +10,7 @@ body {
     background-image: url('pics/accueil.JPG');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   }
 
 
@@ -63,11 +63,11 @@ body {
 }
   
   .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
     color: beige;
     /* font-weight: bold; */
-    border: 3px solid #f1f1f1;
+    /* border: 3px solid #f1f1f1; */
     position: absolute;
     /* top: 50%; */
     left: 50%;
@@ -77,7 +77,7 @@ body {
     padding: 20px;
     text-align: center;
     font-size: x-large;
-    margin-top: 30vw;
+    margin-top: 10vw;
     font-family: secondfont;
   }
   .bg-index {
