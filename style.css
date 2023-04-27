@@ -13,19 +13,26 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   }
-
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
 
   ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     margin-left: 29vw;
     margin-right: 25vw;
+    display: flex;
+    list-style: none;
+   
   }
   
   li {
     float: left;
+    
   }
   
   li a {
@@ -132,10 +139,7 @@ body {
     font-size: 2.7vw;
     margin: 1vw;
   }
-  .topnav {
-    overflow: hidden;
-    margin-bottom: 5vw;;
-  }
+
   /* .fa-brands {
     font-size: 2.7vw;
   }
