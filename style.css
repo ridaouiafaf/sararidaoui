@@ -93,6 +93,16 @@ body {
     margin-top: 10vw;
     font-family: secondfont;
   }
+  .bg-index h1 {
+    font-weight: bold;
+    font-family: generalFont;
+    font-size: 5vw;
+  }
+  .bg-index h3 {
+    font-weight: bold;
+    font-family: generalFont;
+    font-size: 2.5vw;
+  }
   .bg-text p {
     text-align: justify;
     font-family: secondFont;
