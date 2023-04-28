@@ -196,14 +196,22 @@ body {
   }
   
   
-  
-  
-  
-  
-  
-  /* .fa-brands {
-    font-size: 2.7vw;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
-  .fa-solid {
-    font-size: 2.7vw;
-  } */
+  
+  .box {
+    background-color: rgba(245, 245, 220, 0.562);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 17vw;
+    text-align: center;
+  }
+  .box h1{
+    font-family: generalFont;
+    color: rgb(48, 37, 0);
+  }
+  
