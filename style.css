@@ -7,45 +7,54 @@
     src: url(fonts/Montserrat-Regular.ttf);
   }
 body {
-    background-image: url('pics/accueil.JPG');
+  background-image: url('pics/accueil.JPG');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  margin-top: 2.5vw;
+}
+
+.menu-btn {
+  display: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li a{
+  margin: 0 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: beige;
+}
+
+@media (max-width: 768px) {
+  .menu-list {
+    display: none;
   }
 
-  ul {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-left: 29vw;
-    margin-right: 25vw;
-    display: flex;
-    list-style: none;
-   
-  }
-  
-  li {
-    float: left;
-    
-  }
-  
-  li a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .menu-btn {
     display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.7vw;
   }
-  
-  /* Change the link color to #111 (black) on hover */
+}
+
   .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -84,7 +93,7 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    font-size: x-large;
+    font-size: 15vw;
     margin-top: 10vw;
     font-family: secondfont;
   }
@@ -139,73 +148,6 @@ body {
     font-size: 2.7vw;
     margin: 1vw;
   }
-
-  @media (max-width: 768px) {
-    nav {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    li {
-      margin: 10px 0;
-    }
-  }
-  In this example, the navbar is styled with a black background color and white text. At larger screen sizes, the navigation links are displayed in a row using flexbox. At smaller screen sizes (max-width: 768px), the navbar and navigation links are set to display as a column, and the margins on the links are adjusted to make them more readable on smaller screens.
-  
-  You can modify the CSS properties and media queries to fit the specific needs of your website and navbar design.
-  
-  
-  
-  
-  
-  Afaf RIDAOUI
-  how to make text headers & paragraphs responsive
-  To make text headers and paragraphs responsive, you can use CSS media queries to adjust font sizes, line heights, margins, and padding at different screen sizes. Here are some basic steps:
-  
-  Set a base font size and line height for your text, using em or rem units to make it relative to the size of the viewport.
-  
-  Use media queries to adjust font sizes, line heights, margins, and padding at different screen sizes.
-  
-  At smaller screen sizes, you may also want to adjust the layout of your text, such as changing from multiple columns to a single column or stacking text blocks vertically.
-  
-  Here's an example code snippet for making text responsive:
-  
-  HTML:
-  
-  html
-  Copy code
-  <h1>Heading 1</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget commodo tortor. Duis posuere mauris a semper pellentesque. Sed vitae mauris dui. Ut nec pharetra neque.</p>
-  CSS:
-  
-  css
-  Copy code
-  body {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  @media (min-width: 768px) {
-    body {
-      font-size: 18px;
-    }
-  
-    h1 {
-      font-size: 2em;
-      margin-bottom: 1rem;
-    }
-  
-    p {
-      font-size: 1.2em;
-      margin-bottom: 1.5rem;
-    }
-  }
-  
   @media (min-width: 1200px) {
     body {
       font-size: 20px;
@@ -221,6 +163,39 @@ body {
       margin-bottom: 2rem;
     }
   }
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    li {
+      margin: 10px 0;
+    }
+  
+  
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+    h1 {
+      font-size: 2em;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      font-size: 1.2em;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  
   
   
   
